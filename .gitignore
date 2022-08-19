@@ -3,6 +3,11 @@
 # dependencies
 /node_modules
 /.pnp
+/android
+/platforms
+/.firebase
+/firebase.json
+/resources
 .pnp.js
 
 # testing

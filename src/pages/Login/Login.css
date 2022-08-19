@@ -1,0 +1,58 @@
+.input-login {
+    color: azure;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.input-login1 {
+    color: azure;
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.input {
+    height: 40px;
+    border: solid 1px rgb(254, 254, 254);
+    border-radius: 70px;
+    margin-top: 10px;
+    background-color: rgb(35, 13, 84);
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+}
+
+#btn-signin {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    color: aliceblue;
+    border-radius: 70px;
+    width: 240px;
+    background-color: coral;
+}
+
+.logo-cls {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#txt-pswd {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 12px;
+}

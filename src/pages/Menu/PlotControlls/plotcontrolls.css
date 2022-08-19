@@ -1,0 +1,39 @@
+#p-b-l-txt {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: black;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ven-sel {
+    display: flex;
+    margin: auto;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(43, 43, 104);
+    border-radius: 5px;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+#phase-txt {
+    margin: auto;
+    display: flex;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+#plot-txt {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+    font-weight: bolder;
+    color: rgb(43, 43, 104);
+}

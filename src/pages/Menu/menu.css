@@ -1,0 +1,15 @@
+#txt2 {
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    background-color: rgb(35, 13, 84);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 55px;
+}
+
+#arr-back {
+    margin: auto;
+    color: rgb(35, 13, 84);
+    font-size: 20px;
+}

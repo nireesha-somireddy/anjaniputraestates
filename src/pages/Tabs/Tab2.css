@@ -1,0 +1,26 @@
+.content-dashboard {
+    justify-content: center;
+}
+
+.card-data {
+    margin: auto;
+    margin: 10px;
+    background-color: rgb(35, 13, 84);
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center !important;
+    border-radius: 10px;
+}
+
+#txt {
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+#menu {
+    margin: auto;
+    font-size: 25px;
+}
