@@ -22,7 +22,7 @@ const Mngview: React.FC = () => {
             <IonContent fullscreen>
                 <IonButton fill='clear' id='txt2'> Agent Uplevel &nbsp;<IonIcon icon={arrowForwardCircle}>
                 </IonIcon></IonButton>
-                <IonButton fill='clear' id='txt2'>  Plot based Info&nbsp;<IonIcon icon={arrowForwardCircle}>
+                <IonButton fill='clear' id='txt2' routerLink='/plotsalesview' >  Plot based Info&nbsp;<IonIcon icon={arrowForwardCircle}>
                 </IonIcon></IonButton>
                 <IonButton fill='clear' id='txt2'>  Employees List&nbsp;<IonIcon icon={arrowForwardCircle}>
                 </IonIcon></IonButton>

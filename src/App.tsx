@@ -18,6 +18,7 @@ import Plotcontrolls from './pages/Menu/PlotControlls/plotcontrolls';
 import Mngview from './pages/Menu/ManagementView/mngview';
 import Reports from './pages/Menu/Reports/reports';
 import Master from './pages/Menu/Master/master';
+import Plotsalesview from './pages/Menu/ManagementView/PlotbasedInfo/plotsalesview';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -60,6 +61,9 @@ const App: React.FC = () => (
           </Route>
         <Route exact path="/Master">
           <Master />
+          </Route>
+          <Route exact path="/Plotsalesview">
+          <Plotsalesview />
         </Route>
        </IonRouterOutlet>
     </IonReactRouter>

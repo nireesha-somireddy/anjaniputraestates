@@ -1,7 +1,8 @@
 import { IonContent, IonHeader, IonGrid, IonLabel, IonCol, IonRow, IonPage, IonButton, IonIcon, IonToolbar, IonList, IonItem, IonSelect, IonSelectOption } from '@ionic/react';
 import { arrowBackSharp, moveSharp } from 'ionicons/icons';
-import './plotcontrolls.css';
-const Plotcontrolls: React.FC = () => {
+import './plotsalesview.css';
+
+const Plotsalesview: React.FC = () => {
     return (
         <IonPage>
             <IonHeader>
@@ -12,7 +13,7 @@ const Plotcontrolls: React.FC = () => {
                                 <IonButton fill='clear' routerLink='/menu'>
                                     <IonIcon icon={arrowBackSharp} id='arr-back' /></IonButton></IonCol>
                             <IonCol size='7.5'>
-                                <IonLabel id='plot-txt'> Plot Booking</IonLabel></IonCol><IonCol size='2.5'>
+                                <IonLabel id='plot-txt'> Plot Sales View</IonLabel></IonCol><IonCol size='2.5'>
                                 <IonButton fill='clear' routerLink='/app/tab2'>
                                     <IonIcon icon={moveSharp} id='arr-back' /></IonButton>
                             </IonCol></IonRow></IonGrid>
@@ -21,7 +22,7 @@ const Plotcontrolls: React.FC = () => {
             <IonContent fullscreen>
                 <IonGrid>
                     <IonRow>
-                        <IonLabel id='p-b-l-txt'> Plot Booking List</IonLabel>
+                        <IonLabel id='p-b-l-txt'> Plot Sales</IonLabel>
                     </IonRow>
                     <IonRow>
                         <IonCol id='phase-txt'>
@@ -50,11 +51,11 @@ const Plotcontrolls: React.FC = () => {
                             </IonList>
                         </IonCol>
                     </IonRow>
-                    <IonRow> <IonButton fill='clear'  expand='full' id='submit-btn'> Submit</IonButton></IonRow>
+                    <IonRow> <IonButton fill='clear' expand='full' id='submit-btn'> Submit</IonButton></IonRow>
                 </IonGrid>
             </IonContent>
         </IonPage>
     );
 };
 
-export default Plotcontrolls;
+export default Plotsalesview;

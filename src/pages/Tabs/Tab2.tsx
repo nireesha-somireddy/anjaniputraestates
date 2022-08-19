@@ -8,7 +8,7 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonButton fill='clear'  routerLink='/menu'>
+          <IonButton fill='clear' routerLink='/menu'>
             <IonIcon icon={menuSharp} color='dark' id='menu' >
             </IonIcon></IonButton>
         </IonToolbar>
@@ -16,29 +16,45 @@ const Tab2: React.FC = () => {
       <IonContent className='content-dashboard'>
         <IonGrid className='card-data'>
           <IonRow>
-            <IonLabel id='txt' >80000</IonLabel>
+            <IonLabel id='txt'> My Booked plots</IonLabel>
           </IonRow>
           <IonRow>
-            <IonLabel id='txt' >Today payments</IonLabel>
+            <IonLabel id='txt' >22</IonLabel>
           </IonRow>
-          <IonRow><IonButton fill='clear' id='txt'> More info &nbsp;<IonIcon icon={arrowForwardCircle}>
-          </IonIcon></IonButton>
-
-          </IonRow>
-
         </IonGrid>
         <IonGrid className='card-data'>
           <IonRow>
-            <IonLabel id='txt' >1</IonLabel>
+            <IonLabel id='txt'> My tree Booked plots</IonLabel>
           </IonRow>
           <IonRow>
-            <IonLabel id='txt' >Today plot Sales</IonLabel>
-          </IonRow>
-          <IonRow><IonButton fill='clear' id='txt'> More info &nbsp;<IonIcon icon={arrowForwardCircle}>
-          </IonIcon></IonButton>
+            <IonLabel id='txt' >55</IonLabel>
           </IonRow>
         </IonGrid>
 
+        <IonGrid className='card-data'>
+          <IonRow>
+            <IonLabel id='txt' >My Commision</IonLabel>
+          </IonRow>
+          <IonRow>
+            <IonLabel id='txt' >2,55,186</IonLabel>
+          </IonRow>
+        </IonGrid>
+        <IonGrid className='card-data'>
+          <IonRow>
+            <IonLabel id='txt' >My Received Commission</IonLabel>
+          </IonRow>
+          <IonRow>
+            <IonLabel id='txt' >25,000</IonLabel>
+          </IonRow>
+        </IonGrid>
+        <IonGrid className='card-data'>
+          <IonRow>
+            <IonLabel id='txt' >Remaining Commission</IonLabel>
+          </IonRow>
+          <IonRow>
+            <IonLabel id='txt'>2,30,186</IonLabel>
+          </IonRow>
+        </IonGrid>
       </IonContent>
     </IonPage>
   );
