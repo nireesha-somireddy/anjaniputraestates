@@ -1,5 +1,5 @@
 import { IonTabs, IonRouterOutlet, IonTabBar, IonLabel, IonIcon, IonTabButton } from '@ionic/react';
-import { homeSharp, settingsSharp } from 'ionicons/icons';
+import { homeSharp, mapSharp, settingsSharp } from 'ionicons/icons';
 import { Route, Redirect } from 'react-router-dom';
 import Tab2 from './Tab2';
 import Tab3 from './Tab3';
@@ -19,8 +19,8 @@ const Tabs: React.FC = () => {
           <IonLabel> Home</IonLabel>
         </IonTabButton>
         <IonTabButton tab='tab3' href="/app/tab3">
-          <IonIcon icon={settingsSharp} />
-          <IonLabel>Settings</IonLabel>
+          <IonIcon icon={mapSharp} />
+          <IonLabel>Map</IonLabel>
         </IonTabButton></IonTabBar>
     </IonTabs>
   );

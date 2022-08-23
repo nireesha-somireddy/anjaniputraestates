@@ -12,13 +12,7 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
 import Login from './pages/Login/Login';
-import Menu from './pages/Menu/menu';
 import Tabs from './pages/Tabs/Tabs';
-import Plotcontrolls from './pages/Menu/PlotControlls/plotcontrolls';
-import Mngview from './pages/Menu/ManagementView/mngview';
-import Reports from './pages/Menu/Reports/reports';
-import Master from './pages/Menu/Master/master';
-import Plotsalesview from './pages/Menu/ManagementView/PlotbasedInfo/plotsalesview';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -47,24 +41,6 @@ const App: React.FC = () => (
         <IonRouterOutlet>
         <Route exact path="/" component={Login}/>
         <Route path="/app" component={Tabs}/>  
-        <Route exact path="/menu">
-          <Menu />
-        </Route>
-        <Route exact path="/Plotcontrolls">
-          <Plotcontrolls />
-        </Route>
-        <Route exact path="/Mngview">
-          <Mngview />
-        </Route>
-        <Route exact path="/Reports">
-          <Reports />
-          </Route>
-        <Route exact path="/Master">
-          <Master />
-          </Route>
-          <Route exact path="/Plotsalesview">
-          <Plotsalesview />
-        </Route>
        </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

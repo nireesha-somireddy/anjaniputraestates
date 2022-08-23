@@ -1,6 +1,4 @@
 import { IonContent, IonHeader, IonGrid, IonLabel, IonCard, IonRow, IonPage, IonButton, IonIcon, useIonRouter, IonTitle, IonToolbar } from '@ionic/react';
-import { arrowForward, arrowForwardCircle, menuSharp, playForwardSharp } from 'ionicons/icons';
-import ExploreContainer from '../../components/ExploreContainer';
 import './Tab2.css';
 
 const Tab2: React.FC = () => {
@@ -8,9 +6,7 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonButton fill='clear' routerLink='/menu'>
-            <IonIcon icon={menuSharp} color='dark' id='menu' >
-            </IonIcon></IonButton>
+         <IonLabel id='dashboard-page'> Dashboard</IonLabel>
         </IonToolbar>
       </IonHeader>
       <IonContent className='content-dashboard'>
